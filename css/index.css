@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.headingText {
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.game {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.teamDiv {
+  width: 25%;
+  text-align: center;
+}
+
+.teamImg {
+  width: 90%;
+  margin: auto;
+}
